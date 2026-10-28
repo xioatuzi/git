@@ -1,0 +1,23 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+out/
+*.log
+
+# 环境与密钥
+.env
+.env.*
+*.pem
+*.key
+
+# DSH 沙箱权限修复记录（本机专用，不入库）
+.dsh-acl-recovery/
